@@ -1,7 +1,6 @@
 import { 
-  people01, 
-  people02, 
-  people03, 
+  buy,
+  redeem,
   facebook, 
   instagram, 
   linkedin, 
@@ -18,19 +17,19 @@ import {
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Profile",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Lend Service",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Get Service",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Manage Credits",
   },
 ];
 
@@ -61,28 +60,17 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+    name: "Redeem Credits",
     title: "Founder & Leader",
-    img: people01,
+    img: redeem,
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+    name: "Buy Credits",
     title: "Founder & Leader",
-    img: people02,
+    img: buy,
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  
 ];
 
 export const stats = [
@@ -105,26 +93,26 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Creators",
     links: [
       {
-        name: "Content",
+        name: "Dheeraj Babu",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Sathvik",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Rohan",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Bhupesh",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Kaushal",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
@@ -133,40 +121,29 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
+        name: "Gokharaju Rangaraju Institute of Engineering and Technology",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Woxsen University",
         link: "https://www.hoobank.com/partners/",
       },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      
     ],
   },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  // {
+  //   title: "Partner",
+  //   links: [
+  //     {
+  //       name: "Our Partner",
+  //       link: "https://www.hoobank.com/our-partner/",
+  //     },
+  //     {
+  //       name: "Become a Partner",
+  //       link: "https://www.hoobank.com/become-a-partner/",
+  //     },
+  //   ],
+  // },
 ];
 
 export const socialMedia = [
