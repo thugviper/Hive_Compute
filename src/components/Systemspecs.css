@@ -10,13 +10,14 @@
   }
   
   h1 {
-    color: #333;
+    color: #f3eeee;
+    text-decoration-color: #ece5e5;
     font-size: 24px;
     margin-bottom: 20px;
   }
   
   .specs-display {
-    background-color: #fff;
+    background-color: #ece5e5;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -24,7 +25,7 @@
   
   .specs-display p {
     font-size: 18px;
-    color: #555;
+    color: #3b3333;
     margin: 12px 0;
   }
   

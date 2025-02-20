@@ -39,7 +39,7 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Each computation you offer to others rewards you with equivalent credit value",
   },
   {
     id: "feature-2",
@@ -53,7 +53,7 @@ export const features = [
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Use credits earned to either trade computation from others or redeem real money!",
   },
 ];
 
@@ -121,7 +121,7 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Gokharaju Rangaraju Institute of Engineering and Technology",
+        name: "Gokaraju Rangaraju Institute of Engineering and Technology",
         link: "https://www.hoobank.com/help-center/",
       },
       {
@@ -131,19 +131,7 @@ export const footerLinks = [
       
     ],
   },
-  // {
-  //   title: "Partner",
-  //   links: [
-  //     {
-  //       name: "Our Partner",
-  //       link: "https://www.hoobank.com/our-partner/",
-  //     },
-  //     {
-  //       name: "Become a Partner",
-  //       link: "https://www.hoobank.com/become-a-partner/",
-  //     },
-  //   ],
-  // },
+
 ];
 
 export const socialMedia = [

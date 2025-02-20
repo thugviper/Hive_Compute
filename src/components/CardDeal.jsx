@@ -1,27 +1,26 @@
 import React from 'react'
 import { card } from '../assets'
-import Button from './Button'
+import RequesterButton from './RequesterButton';
 import styles, { layout } from '../style'
+import VideoComponent from "./VideoComp";
 
 const CardDeal = () => {
   return (
-    <section className={layout.section}>
+    <section id='product' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+      {/* <h2 className={styles.heading2}>Request</h2> <br className='sm:block hidden'/><h2 className={`${styles.heading2} ${styles.gradient}`} */}
+      <h2 className={styles.heading2}>Request</h2><h2 className={`${styles.heading2} ${styles.gradient}`}
+        > Compute: </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+          (result will be shown here...)
         </p>
-        <Button styles='mt-10'/>
+        {/* <Button styles='mt-10'/> */}
+        <RequesterButton />
       </div>
       <div className={layout.sectionImg}>
-        <img
-          src={card}
-          alt='card'
-          className='w-[100%] h-[100%]'
-        />
+      </div>
+      <div>  
+      <VideoComponent />
       </div>
     </section>
   )
