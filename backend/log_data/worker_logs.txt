@@ -1,0 +1,2 @@
+Worker 0 assigned 100 rows at 2025-02-20T07:23:45.988Z
+Worker 0 completed task in 485 ms at 2025-02-20T07:23:46.472Z
