@@ -1,16 +1,16 @@
-import { 
+import {
   buy,
   redeem,
-  facebook, 
-  instagram, 
-  linkedin, 
-  twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
-  shield, 
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
   star
 } from "../assets";
 
@@ -70,7 +70,7 @@ export const feedback = [
     title: "Founder & Leader",
     img: buy,
   },
-  
+
 ];
 
 export const stats = [
@@ -97,38 +97,38 @@ export const footerLinks = [
     links: [
       {
         name: "Dheeraj Babu",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.linkedin.com/in/dheeraj-babu-dendukuri-05b3b2272",
       },
-      {
-        name: "Sathvik",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Rohan",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Bhupesh",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Kaushal",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
+  {
+    name: "Sathvik",
+    link: "https://www.linkedin.com/in/gunuganti-sathvik-2ba321264",
   },
   {
-    title: "Community",
+    name: "Rohan",
+    link: "https://www.linkedin.com/in/rohan-chadha-5113b2280",
+  },
+  {
+    name: "Bhupesh",
+    link: "https://www.linkedin.com/in/bhupesh-varma-4740712a3",
+  },
+  {
+    name: "Kaushal",
+    link: "https://www.linkedin.com/in/kaushal-345-",
+  },
+],
+  },
+{
+  title: "Community",
     links: [
       {
         name: "Gokaraju Rangaraju Institute of Engineering and Technology",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://griet.ac.in/",
       },
       {
         name: "Woxsen University",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://woxsen.edu.in/",
       },
-      
+
     ],
   },
 
