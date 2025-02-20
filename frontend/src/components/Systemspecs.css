@@ -11,13 +11,12 @@
   
   h1 {
     color: #f3eeee;
-    text-decoration-color: #ece5e5;
     font-size: 24px;
     margin-bottom: 20px;
   }
   
   .specs-display {
-    background-color: #ece5e5;
+    background-color: #be3c3c;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
